@@ -1,4 +1,3 @@
-//LUCIANO GABRIEL ARAUJO N∫USP: 10716783
 
 #include <iostream>
 #include <iomanip>
@@ -370,23 +369,23 @@ TreeEntry BinarySearchTree<TreeEntry>::secondMinimum()
 		return NULL;
 	}else 
 	{
-		while(P_Aux_2->leftNode != NULL) //Percorre toda a subarvore esquerda atÈ seu extremo mais a esquerda.
+		while(P_Aux_2->leftNode != NULL) //Percorre toda a subarvore esquerda at√© seu extremo mais a esquerda.
 		{
 			P_Aux = P_Aux_2;
 			P_Aux_2 = P_Aux_2->leftNode;
 		}
 		
-		if(P_Aux_2->leftNode == NULL && P_Aux_2->rightNode != NULL) //Verifica se o nÛ extrema esquerda(Minimo) tem subarvore direita.
+		if(P_Aux_2->leftNode == NULL && P_Aux_2->rightNode != NULL) //Verifica se o n√≥ extrema esquerda(Minimo) tem subarvore direita.
 		{
 			P_Aux_2 = P_Aux_2->rightNode;
 			
-			while(P_Aux_2->leftNode != NULL)//ApÛs entrar na subarvore direita, percorre todo o extremo esquerdo do NODE.
+			while(P_Aux_2->leftNode != NULL)//Ap√≥s entrar na subarvore direita, percorre todo o extremo esquerdo do NODE.
 				P_Aux_2 = P_Aux_2->leftNode;
 				return P_Aux_2->entry;
 		}
 	 
 	}
-	return P_Aux->entry;//Se o minimo elemento da arvore n„o tiver nenhuma subarvore, ent„o o minimo È o Pai.
+	return P_Aux->entry;//Se o minimo elemento da arvore n√£o tiver nenhuma subarvore, ent√£o o minimo √© o Pai.
 }
 //------------------------------------------------------------
 #endif /* BSTREETEMPLATE_H */
