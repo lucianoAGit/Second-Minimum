@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c659dd6555a6e8d53ee57e41c6016408dd268bd1
 #include <iostream>
 #include <iomanip>
 #include <climits>
