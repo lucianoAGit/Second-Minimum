@@ -1,0 +1,1 @@
+Esse trabalho tem como objetivo achar o segundo minimo de uma árvore de busca. Pode ser utilizado ou modificado por qualquer pessoa.  

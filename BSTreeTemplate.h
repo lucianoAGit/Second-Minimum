@@ -1,5 +1,3 @@
-//LUCIANO GABRIEL ARAUJO NºUSP: 10716783
-
 #include <iostream>
 #include <iomanip>
 #include <climits>
